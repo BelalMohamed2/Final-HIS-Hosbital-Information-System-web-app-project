@@ -48,6 +48,10 @@ To start deployment
 ## Features
 In our Hospital system there are different sections to be mentioned: 
 
+0.An ER model (Entity-Relationship model) is a data model that represents the conceptual view of data in a database. The ER model is a graphical representation of entities (objects or concepts) and the relationships among them and the following image represents the er model of the our hospital and shows the relation between the admin, doctors, and patiens.
+
+![main widow](./images/image_1.png)
+
 1.The start page which contains the log in tab for older users and sign up tab for the new users also contains about section which represents a little about our hospital, also contact us section to allow the users to contact with the hospital for any problems or recommendations.
 
 ![main widow](./images/mainpage.jpeg)
