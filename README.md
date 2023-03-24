@@ -13,3 +13,58 @@
 2 Our application uses static files ( patients' scans )
 3-responsivity means our application is available on mobile phones 
 4-also there is a contact us form for any complains or special requests.
+
+## Table of Contents
+
+- [Built with](#Built-with)
+- [Deployment](#Deployment)
+- [Design](#Design)
+- [Features](#Features)
+- [Authors](#Authors)
+
+
+## Built with
+
+![programming language](https://img.shields.io/badge/programmig%20language-Python-red)
+[![MySQL](https://img.shields.io/badge/MySQL-8.0-blue.svg)](https://www.mysql.com/)
+![Framework](https://img.shields.io/badge/Framework-Flask-blue)
+![styling](https://img.shields.io/badge/Styling-CSS-ff69b4)
+
+
+## Deployment
+
+ Install Flask
+
+```bash
+  pip install Flask
+```
+To start deployment 
+```bash
+  flask run app.py
+```
+
+## 🖌️ Design
+
+## Features
+In our Hospital system there are different sections to be mentioned: 
+
+1.The start page which contains the log in tab for older users and sign up tab for the new users also contains about section which represents a little about our hospital, also contact us section to allow the users to contact with the hospital for any problems or recommendations.
+
+![main widow](./images/mainpage.jpeg)
+
+2.Admin page: This page is only for admins that have a lot of tabs and fully control the data of the hospital and where we can add new accounts to doctors and also supervise the patient problems and recommendations.
+
+![main widow](./images/adminpage.jpeg)
+
+3.Doctor page: Here is the page of the doctor where we can see the appointment tab which shows the doctor the weekly appointments and also the scans of the medical records of the patients to help him write an examination and prescription.
+
+![main widow](./images/doctorpage.jpeg)
+
+4.Patient page: This page is for patients where you can see the available doctors and book or delete appointments and see the written prescriptions.
+
+![main widow](./images/patientpage.jpeg)
+
+5.An examples of appointments reservations table with the different informations needed
+
+![main widow](./images/table_of_appointment.jpeg)
+
